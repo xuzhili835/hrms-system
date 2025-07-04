@@ -5,7 +5,7 @@
 ![Vue](https://img.shields.io/badge/vue-3.5.13-green.svg)
 ![Spring Boot](https://img.shields.io/badge/spring%20boot-3.x-green.svg)
 
-> 上方的徽章表示项目的许可证类型、技术栈版本等基本信息，方便开发者快速了解项目概况。
+
 
 一个基于 Spring Boot + Vue 3 的现代化人力资源管理系统，提供员工管理、考勤管理、薪资管理、公告管理等功能。
 
