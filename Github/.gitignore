@@ -1,0 +1,41 @@
+# 敏感配置文件
+*.bak
+temp_*.yml
+temp_*.yaml
+
+# 包含大量测试数据的数据库脚本（不适合开源）
+hrms-database-init.sql
+
+# 后端相关
+hrms-back/target/
+hrms-back/logs/
+hrms-back/uploads/
+*.log
+*.pid
+
+# 前端相关
+hrms-frontend/node_modules/
+hrms-frontend/dist/
+hrms-frontend/.vite/
+hrms-frontend/.env.local
+hrms-frontend/.env.*.local
+
+# IDE 相关
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 依赖文件
+*.jar
+*.war
+*.ear
+
+# 临时文件
+*.tmp
+*.temp 

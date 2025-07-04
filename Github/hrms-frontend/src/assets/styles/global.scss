@@ -1,0 +1,45 @@
+/* src/assets/styles/global.scss */
+:root {
+    --primary-color: #409EFF;
+    --success-color: #67C23A;
+    --warning-color: #E6A23C;
+    --danger-color: #F56C6C;
+    --text-primary: #303133;
+    --text-regular: #606266;
+    --text-secondary: #909399;
+    --border-color: #dcdfe6;
+    --background-light: #f5f7fa;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-light);
+    color: var(--text-regular);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  /* 全局返回按钮样式 */
+  .back-button-container {
+    position: fixed;
+    top: 80px;
+    left: 20px;
+    z-index: 1000;
+    
+    .back-button {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      color: #409EFF;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background: #409EFF;
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+  
