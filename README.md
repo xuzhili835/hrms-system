@@ -8,13 +8,15 @@
 
 
 一个基于 Spring Boot + Vue 3 的现代化人力资源管理系统，提供员工管理、考勤管理、薪资管理、公告管理等功能。
-进入Github文件中可以看到以下文件
+
+##进入Github文件中可以看到以下文件
 hrms-back  //前端项目文件
 hrms-frontend  //后端项目文件
 .gitignore
 hrms-database-init
 LICENSE
 README
+
 ## 🚀 快速开始
 
 ### 环境要求
